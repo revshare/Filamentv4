@@ -22,7 +22,7 @@ class CustomersTable
                 TextColumn::make('email')->label('Email')->sortable()->searchable(),
             ])
             ->filters([
-                //
+                
             ])
             ->recordActions([
                 EditAction::make(),
